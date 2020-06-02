@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+* {
+  box-sizing: border-box; }
+
+.container {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rowsrow: repeat(6, auto);
+  grid-row-gap: 20px;
+  background-color: #ffffff;
+  margin: 25px auto;
+  width: 1250px; }
+
+.header_menu-item > a:hover {
+  color: #f5d76e !important; }
+
+.header__body {
+  background: url("../image/coffee-shop.png");
+  height: 650px; }
+  .header__body > .header__nav__body {
+    background-color: rgba(0, 0, 0, 0.36);
+    height: 100px; }
+    .header__body > .header__nav__body > .header__nav {
+      display: flex;
+      justify-content: space-between;
+      width: 600px;
+      margin: 0 auto; }
+      .header__body > .header__nav__body > .header__nav > .header_menu-image {
+        padding-top: 5px; }
+      .header__body > .header__nav__body > .header__nav > .header_menu-item {
+        font-family: Roboto;
+        font-size: 24px;
+        padding-top: 40px; }
+        .header__body > .header__nav__body > .header__nav > .header_menu-item > a {
+          color: white;
+          text-decoration: none; }
+  .header__body > .header__text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 13%;
+    margin-left: 15%; }
+    .header__body > .header__text .tittle-header_text {
+      padding-left: 1%;
+      font-family: Roboto , sans-serif;
+      font-weight: 100;
+      font-size: 24px;
+      color: #f5d76e; }
+    .header__body > .header__text .text-header_text {
+      color: white; }
+    .header__body > .header__text .header_button {
+      width: 200px;
+      border: 2px solid white;
+      color: white;
+      text-align: center; }
+      .header__body > .header__text .header_button :hover {
+        cursor: pointer; }
+
+.about {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center; }
+  .about > .about-tittle {
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    color: #2f2f2f; }
+  .about .about-text {
+    font-family: Roboto, sans-serif;
+    font-size: 16px; }
+  .about > .icon-divider {
+    margin: 50px auto; }
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+  .menu > .menu_tittle {
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 30px; }
+  .menu .menu_item {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px; }
+    .menu .menu_item .column__menu_item {
+      width: 396px;
+      height: 294px;
+      background: url("../image/cup of coffee.png");
+      text-align: center;
+      padding-top: 100px; }
+    .menu .menu_item .menu_item__price {
+      display: flex; }
+      .menu .menu_item .menu_item__price > .name-product_menu-item {
+        text-align: left;
+        font-family: Roboto, sans-serif;
+        font-size: 12px;
+        font-weight: 100;
+        padding-top: 150px;
+        padding-left: 10px; }
+      .menu .menu_item .menu_item__price .price-product_menu-item {
+        text-align: right;
+        font-family: Roboto, sans-serif;
+        font-size: 12px;
+        padding-top: 150px;
+        padding-left: 200px; }
+    .menu .menu_item .column2__menu_item {
+      width: 396px;
+      height: 294px;
+      background: url("../image/tea realisticshots.png");
+      text-align: center;
+      padding-top: 100px; }
+    .menu .menu_item .column3__menu_item {
+      width: 396px;
+      height: 294px;
+      background: url("../image/Dessert.png");
+      text-align: center;
+      padding-top: 100px; }
+  .menu .menu_button {
+    margin: 250px auto 0 auto;
+    border: 2px solid black;
+    width: 200px;
+    text-align: center; }
+    .menu .menu_button :hover {
+      cursor: pointer; }
+  .menu .icon-divider {
+    margin: 50px auto; }
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
+  .testimonials .testimonials_tittle {
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 24px; }
+  .testimonials .post_testimonials {
+    width: 1200px;
+    height: 425px;
+    background: url("../image/BG.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 50px; }
+    .testimonials .post_testimonials img {
+      margin-left: 60px; }
+    .testimonials .post_testimonials h3 {
+      color: #f5d76e;
+      font-size: 24px;
+      font-family: Roboto, sans-serif; }
+    .testimonials .post_testimonials p {
+      font-family: Roboto, sans-serif;
+      color: white; }
+    .testimonials .post_testimonials .selector_testimonials {
+      display: flex;
+      width: 20%;
+      justify-content: space-between;
+      align-items: center; }
+  .testimonials .icon-divider {
+    margin: 50px auto; }
+
+.location {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .location .location_tittle {
+    font-family: Roboto,sans-serif;
+    font-size: 24px; }
+
+.footer {
+  background-color: #39312f;
+  width: auto;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .footer .footer_socials-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 200px; }
+  .footer p {
+    color: white;
+    font-family: Roboto, sans-serif; }
